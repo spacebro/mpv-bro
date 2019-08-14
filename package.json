@@ -1,0 +1,23 @@
+{
+  "name": "mpv-bro",
+  "version": "0.0.1",
+  "description": "Control MPV over spacebro",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spacebro",
+    "mpv",
+    "media-player"
+  ],
+  "author": "gabrielstuff",
+  "license": "MIT",
+  "dependencies": {
+    "node-mpv": "git+https://github.com/00SteinsGate00/Node-MPV/#Node-MPV-2",
+    "spacebro-client": "^0.4.8",
+    "standard-settings": "^1.1.15"
+  }
+}

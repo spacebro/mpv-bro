@@ -1,0 +1,15 @@
+{
+    "service": {
+        "spacebro": {
+            "host": "178.62.66.181",
+            "port": 3333,
+            "channelName": "media-stream",
+            "client": {
+                "name": "mpv-bro",
+                "description": "a tool to play media",
+                "in": {},
+                "out": {}
+            }
+        }
+    }
+}
