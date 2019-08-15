@@ -1,5 +1,6 @@
 
 const settings = require('standard-settings').getSettings()
+const assignment = require('assignment')
 const Mpv = require('node-mpv')
 const { SpacebroClient } = require('spacebro-client')
 const path = require('path')
@@ -108,7 +109,8 @@ client.on('connect', (data) => {
 })
 
 client.on('loadAndPlay', (data) => {
-  console.log('play received', data)
+  data = assignment(JSON.parse(JSON.stringify(settings.media)), data)
+  console.log('loadAndplay received', data)
   if (data.path) {
     const options = data.options
     mpvLoadAndPlay(data.path, options)
