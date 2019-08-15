@@ -68,7 +68,7 @@ const mpvLoadAndPlay = (filepath, options) => {
       if (options && options.inf) {
         return player.loop('inf')
       } else {
-        return player.getDuration()
+        return player.play()
       }
     })
     .catch((error) => {
