@@ -7,9 +7,17 @@
             "client": {
                 "name": "mpv-bro",
                 "description": "a tool to play media",
-                "in": {},
+                "in": {
+                  "loadAndPlay": {
+                    "eventName": "loadAndPlay",
+                    "description": "Load and play media specified in path",
+                    "type": "all"
+                  }
+                },
                 "out": {}
             }
         }
+    },
+    "media": {
     }
 }
