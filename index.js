@@ -13,7 +13,9 @@ const player = new Mpv({
 }, [
   '--hr-seek=yes',
   '--no-config',
-  '--cache=yes'
+  '--cache=yes',
+  '--no-border',
+  '--no-osc'
 ])
 
 const currentFilepath = ''
