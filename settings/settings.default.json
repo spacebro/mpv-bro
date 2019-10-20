@@ -1,4 +1,11 @@
 {
+    "mpvParams": [
+      "--hr-seek=yes",
+      "--no-config",
+      "--cache=yes",
+      "--no-border",
+      "--no-osc"
+    ],
     "service": {
         "spacebro": {
             "host": "178.62.66.181",

@@ -10,13 +10,7 @@ const client = new SpacebroClient(settings.service.spacebro)
 const player = new Mpv({
   socket: `/tmp/node-mpv-bro-${version}.sock`,
   audio_only: false
-}, [
-  '--hr-seek=yes',
-  '--no-config',
-  '--cache=yes',
-  '--no-border',
-  '--no-osc'
-])
+}, settings.mpvParams)
 
 const currentFilepath = ''
 
