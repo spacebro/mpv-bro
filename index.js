@@ -7,6 +7,7 @@ const path = require('path')
 const version = require('./package').version
 
 const client = new SpacebroClient(settings.service.spacebro)
+
 const player = new Mpv({
   socket: `/tmp/node-mpv-bro-${version}.sock`,
   audio_only: false

@@ -16,7 +16,7 @@
   "author": "gabrielstuff",
   "license": "MIT",
   "dependencies": {
-    "node-mpv": "git+https://github.com/00SteinsGate00/Node-MPV/#Node-MPV-2",
+    "node-mpv": "^2.0.0-beta.2",
     "spacebro-client": "^0.4.8",
     "standard-settings": "^1.1.15"
   }
