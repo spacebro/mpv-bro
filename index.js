@@ -9,6 +9,7 @@ const version = require('./package').version
 const client = new SpacebroClient(settings.service.spacebro)
 
 const player = new Mpv({
+  verbose: settings.mpv.verbose,
   socket: `/tmp/node-mpv-bro-${version}.sock`,
   audio_only: false
 }, settings.mpvParams)

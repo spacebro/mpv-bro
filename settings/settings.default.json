@@ -1,10 +1,14 @@
 {
+    "mpv":{
+      "verbose": true
+    },
     "mpvParams": [
       "--hr-seek=yes",
       "--no-config",
       "--cache=yes",
       "--no-border",
-      "--no-osc"
+      "--no-osc",
+      "--fps=60"
     ],
     "service": {
         "spacebro": {
