@@ -1,6 +1,7 @@
 {
     "mpv":{
-      "verbose": true
+      "verbose": true,
+      "debug": true
     },
     "mpvParams": [
       "--hr-seek=yes",
